@@ -35,6 +35,12 @@ return {
 
     -- Hop
     ["<leader><leader>"] = { "<cmd>HopChar1<cr>", desc = "Go to char" },
+
+    -- Improved Terminal Navigation like tmux
+    ["<C-a>h"] = { "<cmd>wincmd h<cr>", desc = "Terminal left window navigation" },
+    ["<C-a>j"] = { "<cmd>wincmd j<cr>", desc = "Terminal down window navigation" },
+    ["<C-a>k"] = { "<cmd>wincmd k<cr>", desc = "Terminal up window navigation" },
+    ["<C-a>l"] = { "<cmd>wincmd l<cr>", desc = "Terminal right window navigation" },
   },
   t = {
     -- setting a mapping to false will disable it
