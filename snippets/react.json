@@ -1,0 +1,77 @@
+{
+  "typescript-react-arrow-function-component-with-interface": {
+    "key": "typescript-react-arrow-function-component-with-interface",
+    "prefix": "rfci",
+    "body": [
+      "/**",
+      " * ${TM_FILENAME_BASE} Component",
+      " *",
+      " */",
+      "",
+      "import { FC } from 'react';",
+      "",
+      "interface ${TM_FILENAME_BASE}I {",
+      "",
+      "};",
+      "",
+      "const ${TM_FILENAME_BASE}: FC<${TM_FILENAME_BASE}I> = ({}): JSX.Element => {",
+      "  return (",
+      "    $0",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Creates a React Arrow Function Component and TypeScript interface",
+    "scope": "typescriptreact"
+  },
+  "typescript-react-arrow-function-component": {
+    "key": "typescript-react-arrow-function-component",
+    "prefix": "rfc",
+    "body": [
+      "/**",
+      " * ${TM_FILENAME_BASE} Component",
+      " *",
+      " */",
+      "",
+      "const ${TM_FILENAME_BASE} = (): JSX.Element => {",
+      "  return (",
+      "    $0",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Creates a React Arrow Function Component",
+    "scope": "typescriptreact"
+  },
+  "react-arrow-function-component": {
+    "key": "react-arrow-function-component",
+    "prefix": "rfc",
+    "body": [
+      "/**",
+      " * ${TM_FILENAME_BASE} Component",
+      " *",
+      " */",
+      "",
+      "const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    $0",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Creates a React Arrow Function Component",
+    "scope": "javascriptreact"
+  },
+  "import-styles": {
+    "key": "import-styles",
+    "prefix": "ims",
+    "body": [
+      "import styles from './${TM_FILENAME_BASE}.module.${1:scss}';${0}"
+    ],
+    "description": "Import styles from a file",
+    "scope": "typescriptreact,javascriptreact"
+  }
+}
