@@ -71,7 +71,7 @@ return {
   polish = function()
     -- Set up custom filetypes
     -- vim.filetype.add {
-    --   extension = {
+    --   extnsion = {
     --     foo = "fooscript",
     --   },
     --   filename = {

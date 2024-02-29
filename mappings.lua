@@ -31,12 +31,11 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+    ["<leader>s"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
 
     -- Hop
     ["<leader><leader>"] = { "<cmd>HopChar1<cr>", desc = "Go to char" },
 
-    -- Improved Terminal Navigation like tmux
     ["<C-a>h"] = { "<cmd>wincmd h<cr>", desc = "Terminal left window navigation" },
     ["<C-a>j"] = { "<cmd>wincmd j<cr>", desc = "Terminal down window navigation" },
     ["<C-a>k"] = { "<cmd>wincmd k<cr>", desc = "Terminal up window navigation" },

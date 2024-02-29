@@ -40,11 +40,10 @@ return {
         "BufferLineFill",
         "BufferLineBackground",
         "BufferLineBufferSelected",
-      },
-      -- table: groups you don't want to clear
-      exclude_groups = {
         "NormalFloat",
       },
+      -- table: groups you don't want to clear
+      exclude_groups = {},
     },
     keys = {
       { prefix .. "T", "<cmd>TransparentToggle<CR>", desc = "Toggle transparency" },
