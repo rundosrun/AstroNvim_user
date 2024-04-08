@@ -33,6 +33,9 @@ return {
     -- quick save
     ["<leader>s"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
 
+    -- Zen mode
+    ["<leader>z"] = { ":ZenMode<cr>", desc = "Zen mode" },
+
     -- Hop
     ["<leader><leader>"] = { "<cmd>HopChar1<cr>", desc = "Go to char" },
 
